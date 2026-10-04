@@ -1,0 +1,9 @@
+{
+  "name":"Anjaan Musafir Books",
+  "short_name":"AM Books",
+  "start_url":"./index.html",
+  "display":"standalone",
+  "background_color":"#f4f3ee",
+  "theme_color":"#101a26",
+  "description":"Anjaan Musafir Books — digital reading for thinking, habits, career and growth."
+}

@@ -1,48 +1,23 @@
-ANJAAN MUSAFIR BOOKS — PREMIUM V2
-=================================
+ANJAAN MUSAFIR BOOKS — PREMIUM WEBSITE
+=======================================
 
-This package is a redesigned premium frontend based on the current website structure.
-
-UPLOAD / REPLACE THESE FILES IN YOUR GITHUB REPOSITORY ROOT:
-- index.html
-- book.html
-- books.js
-- app.js
-- style.css
-- circle.html
-- offers.html
-- resources.html
-- account.html
-- partner.html
-- thank-you.html
-
-KEEP YOUR EXISTING IMAGE FILES IN THE ROOT:
-- dimag-ka-shor.jpg
-- ai-career.jpg
-- aadaton-ke-paar.jpg
-- vicharon-ki-kaid.jpg
-- reality-of-manifestation.jpg
+GitHub Pages upload:
+1. इस ZIP को extract करें।
+2. अपनी existing repository (vicharon-ki-kaid) के root में इन files को upload/replace करें।
+3. अपनी existing cover JPG files भी root में रखें:
+   - dimag-ka-shor.jpg
+   - ai-career.jpg
+   - aadaton-ke-paar.jpg
+   - vicharon-ki-kaid.jpg
+   - reality-of-manifestation.jpg
+4. GitHub Pages को main branch / root से deploy करें।
 
 IMPORTANT:
-1. Existing real Payhip link for "विचारों की कैद" is preserved.
-2. Other books remain "जल्द उपलब्ध" because no real checkout links were supplied.
-3. WhatsApp Channel, Community, Vote, Review and Partner links are blank in books.js on purpose.
-   Add only your real links later.
-4. The My Account page is a frontend-ready shell only. It does NOT pretend to be a secure login.
-   Real account/database requires a real backend such as Supabase and its public configuration.
-5. Wishlist currently uses browser localStorage. It is device/browser specific, not a cloud account.
-6. No fake offer dates, fake reviews, fake counts, fake testimonials, or fake urgency have been added.
-7. Free resources are shown as "Coming soon" until their real files/links exist.
-
-EXISTING POLICY FILES:
-Keep your current privacy.html, terms.html, refund.html and contact.html if they are already correct.
-They were not overwritten in this package because their exact current legal wording should be preserved unless you explicitly ask for a legal rewrite.
-
-NEXT TECHNICAL PHASE:
-- Connect Supabase Auth + database
-- Connect real customer profile
-- Connect wishlist to account
-- Connect reader levels/rewards
-- Decide how Payhip purchase verification will sync to the account
-- Add real WhatsApp/Form links
-- Add real offer dates/coupons
+- books.js में सिर्फ़ वही Payhip checkout link भरा है जो अभी उपलब्ध है: विचारों की कैद.
+- बाकी books में checkout खाली है, इसलिए “जल्द उपलब्ध” दिखेगा। अपने Payhip direct checkout links मिलने पर books.js में checkout field भरें।
+- Combo price ₹149 दिखाने के लिए config तैयार है, लेकिन combo checkout link जानबूझकर खाली रखा गया है।
+- Partner, Vote, Review और email-list forms के final Google Form/WhatsApp links अभी placeholders हैं; fake links नहीं बनाए गए।
+- Analytics ID जानबूझकर hard-code नहीं की गई। Cloudflare Web Analytics या GA ID मिलने पर बाद में जोड़ें।
+- Wishlist localStorage पर है; यह secure account/purchase history नहीं है।
+- PWA manifest + service worker included हैं। GitHub Pages HTTPS पर install prompt browser के अनुसार दिख सकता है।
+- Fake reviews, fake sales count, fake countdown या fake urgency नहीं जोड़ी गई है।
