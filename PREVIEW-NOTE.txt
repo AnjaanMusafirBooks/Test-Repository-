@@ -1,0 +1,5 @@
+Preview PDFs added:
+- Each preview is based only on the book metadata/structure available in the project files.
+- They are intentionally not presented as verbatim chapter excerpts.
+- The actual full eBook files remain separate and are not exposed by these previews.
+- Payhip checkout links can be connected later.

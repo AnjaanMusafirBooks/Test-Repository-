@@ -1,0 +1,22 @@
+ANJAAN MUSAFIR BOOKS — NEXT STEPS
+
+मैंने अभी जो चीज़ें बिना आपके account access के पूरी की हैं:
+1. Overthinking Self-Check PDF
+2. 7-Day Reader Challenge PDF
+3. 3 phone wallpapers
+4. Free Resources page के buttons को इन local files से जोड़ दिया है
+
+अब आपको अपने accounts से करना होगा:
+A) Payhip: हर book का direct checkout link लेकर books.js में checkout field भरना.
+B) Payhip: ₹149 combo product बनाकर उसका checkout link जोड़ना.
+C) WhatsApp Channel: अपना invite link जोड़ना.
+D) Google Forms: Vote, Review और Partner application forms बनाकर links जोड़ना.
+E) Analytics: Cloudflare Web Analytics या Google Analytics property बनाकर measurement ID जोड़ना.
+F) Meta Ads: Meta Pixel बनाकर site/Payhip integration verify करना.
+G) GitHub Pages: exact live URL मिलने पर sitemap.xml, robots.txt और canonical/OG URLs को final URL से सेट करना.
+H) Custom domain: optional; अभी जरूरी नहीं.
+
+महत्वपूर्ण:
+- Fake reviews, fake sales count या fake urgency न लगाएँ.
+- Countdown तभी लगाएँ जब real offer end date हो.
+- Real customer login/purchase history अभी secure backend के बिना claim न करें.
